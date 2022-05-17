@@ -19,5 +19,5 @@ print(Fore.RED + """
 
 lib = input(Fore.YELLOW + "Nombre de la librería que deseas instalar: ")
 
-system('pip install ' + lib)
+system('pip3 install ' + lib)
 exit()
